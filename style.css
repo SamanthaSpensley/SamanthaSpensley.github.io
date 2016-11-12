@@ -6,20 +6,24 @@ font-family: 'Satisfy', cursive;*/
 @import 'https://fonts.googleapis.com/css?family=Lora';
 /*font-family: 'Lora', serif;*/
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
+/*font-family: 'Roboto Mono', monospace;*/
+
 /* SPLASH PAGE */
 /* Splash - Structure */
 #body-splash {
+  display: flex;
   background-color: #123B42;
   color: white;
 }
 
 #splash {
-  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100vh;
 }
 
 /* Splash - Logo */
@@ -46,29 +50,41 @@ h1 {
   margin-top: 21px;
   font-size: 2vw;
 }
+#btn-splash:hover {
+  background-color: white;
+  color: #123B42;
+}
 .a-splash {
   color: white;
   text-decoration: none;
 }
-.a-splash:hover {
-  color: #C1CC30;
-  text-decoration: none;
-}
+
 
 
 /* PORTFOLIO PAGE */
 /* Portfolio - Structure */
+#body-porfolio h4{
+  font-family: 'Roboto Mono', monospace;
+}
+
 .padding-portfolio {
   padding-top: 8vw;
   padding-bottom: 8vw;
 }
 
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xtra-cushion {
+  margin: 2vw;
+}
+
 /* Portfolio - Background */
 .background-isabelline {
   background-color: #EAEFEE;
-}
-.background-cambridge {
-  background-color: #9DB5B2;
 }
 .background-white {
   background-color: #FFFFFF;
@@ -86,48 +102,67 @@ h1 {
   margin-bottom: 2vw;
   cursor: default;
 }
+
 .btn-primary {
   background-color: #123B42;
   border-color: #123B42;
   font-size: 1.5vw;
   text-transform: uppercase;
 }
+
 .btn-primary:hover {
   background-color: #C1CC30;
   border-color: #C1CC30;
   font-size: 1.5vw;
   text-transform: uppercase;
 }
+
+.btn-link {
+    font-size: 1.2vw;
+    margin-bottom: 0;
+}
+
+.btn-link:hover {
+  background-color: #123B42;
+  border-color: #123B42;
+  color: white;
+  text-decoration: none;
+}
+
 /* Porfolio - Type */
 h3 {
-  font-family: 'Lora', serif;
   margin-bottom: 2vw;
 }
-
-.form-input {
-  margin-bottom: 2vw;
-}
-.form-control {
-  border-color: black;
-  border-width: .15vw;
-  color: black;
-}
-.form-control::-webkit-input-placeholder { color: black; text-transform: uppercase;}
-.form-control:-moz-placeholder { color: black; text-transform: uppercase;}
-.form-control::-moz-placeholder { color: black; text-transform: uppercase;}
-.form-control:-ms-input-placeholder { color: black; text-transform: uppercase;}
-
-/* Portfolio - Project Cards */
-.card img {
-  width: 90%;
-}
-.rating {
-  color: black;
-}
-.desc-tech {
-  margin-bottom: 2vw;
+#resume h5 {
+  margin-bottom: 3vw;
 }
 
-body {
-   overflow-x: hidden;
+/* Portfolio - Gallery */
+.gallery ul li {
+    margin: 0;
+    position: relative;
+    list-style: none;
+    float: left;
+    padding: 0;
+}
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #123B42;
+  width: 100%;
+  height: 10vh;
+}
+footer h5 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
 }

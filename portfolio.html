@@ -3,329 +3,86 @@
   <head>
     <meta charset="utf-8">
     <title>Samantha Spensley Portfolio</title>
-    <link href="rotating_card/css/bootstrap.css" rel="stylesheet" />
-    <link href="rotating_card/css/rotating-card.css" rel="stylesheet" />
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- styles -->
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css" rel="stylesheet" integrity="sha384-HzUaiJdCTIY/RL2vDPRGdEQHHahjzwoJJzGUkYjHVzTwXFQ2QN/nVgX7tzoMW3Ov" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body id="body-porfolio">
     <main>
+      <!-- intro section -->
       <div id="about" class="background-isabelline padding-portfolio">
         <div class="container">
           <button class="button-outline-default btn-lg btn-portfolio">About Me</button>
-          <h3>Hey, I'm Sam. Trust fund austin plaid cray locavore. Normcore succulents forage, mustache single-origin coffee kinfolk typewriter hammock tumeric. </h3>
-          <h3>Slow-carb synth woke, mixtape leggings literally mlkshk vaporware selfies etsy heirloom tofu cray biodiesel. Meggings health goth selvage asymmetrical cliche. Fixie fanny pack sustainable kombucha gochujang, vice literally selvage coloring book waistcoat ramps ethical flexitarian drinking vinegar kinfolk.</h3>
+          <h4 class="xtra-cushion">Hey, I'm Sam. I'm making the tranisition to a full stack JavaScript Developer.</h4>
+          <h4 class="xtra-cushion">Specializing in the NEAP stack (Node.js, Express, AngularJS, PostgeSQL), but I'm constantly exploring other technologies. Oh, I'm also a sucker for good design.</h4>
+          <h4 class="xtra-cushion">My roots are in the Midwest, but my love of adventure brought me to Colorado. I'm a seeker or new challenges, adventures, and food. Always the food.</h4>
         </div>
       </div>
-      <div id="resume" class="background-cambridge padding-portfolio">
-        <div class="container">
-          <button class="button-outline-default btn-lg btn-portfolio">Resume</button>
-          <h3>Wrapped up the Galvanize Full-Stack Immersive Program after spending several years in the consulting world. Transferable skills gained include: solid communication, strong team player, good vibes all around.</h3>
-          <div class="row">
-            <div class="col-md-6">
-              <h4><i class="fa fa-line-chart" aria-hidden="true"></i> Professional</h4>
-            </div>
-            <div class="col-md-6">
-              <h4><i class="fa fa-file-text-o" aria-hidden="true"></i> Education</h4>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      <!-- portfolio section -->
       <div id="projects" class="background-white padding-portfolio">
         <div class="container">
           <button class="button-outline-default btn-lg btn-portfolio">Portfolio</button>
-          <h3>I've been crafting lots of projects. Here's a sampling.</h3>
-          <div class="row">
-            <div class="col-md-5 col-md-offset-1">
-
-              <div class="card-container">
-                <div class="card">
-                  <div class="front"> <!-- front panel -->
-                    <div class="header">
-                      <h4>Bebop</h4>
-                    </div>
-                    <div class="content">
-                      <div class="main">
-                        <img src="rotating_card/images/rotating_card_thumb3.png"/>
-                      </div>
-                      <div class="footer">
-                        <div class="rating">
-                          <i class="fa fa-mail-forward"></i> Auto Rotation
-                        </div>
-                      </div>
-                    </div>
-                  </div> <!-- end front panel -->
-                  <div class="back">
-                    <div class="header">
-                      <h5 class="motto">Discover shows near you based on artists you love</h5>
-                    </div>
-                    <div class="content">
-                      <div class="main">
-                        <div class="desc-tech">
-                          <h4 class="text-center">Technology Description</h4>
-                          <p class="text-center">Web Design, HTML, CSS, JavaScript, Materialize, jQuery</p>
-                        </div>
-                        <div class="desc-app">
-                          <h4 class="text-center">App Description</h4>
-                          <p class="text-center">Bebop allows users to search for concerts within a specified radius related to an artist or band or their choice. Utilizes external API and material design cards to provide users with concert info in a sleek, manageable format.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="footer">
-                      <div class="social-links text-center">
-                        <a href="https://bebop-14a8a.firebaseapp.com/#display" target="blank">Visit site</a>
-                      </div>
-                    </div>
-                  </div> <!-- end back panel -->
-                </div> <!-- end card -->
-              </div> <!-- end card-container -->
-
-            </div>
-            <div class="col-md-5">
-
-              <div class="card-container">
-                <div class="card">
-
-                  <div class="front"> <!-- front panel -->
-                    <div class="header">
-                      <h4>Jamazon</h4>
-                    </div>
-
-                    <div class="content">
-                      <div class="main">
-                        <img src="rotating_card/images/rotating_card_thumb3.png"/>
-                      </div>
-                      <div class="footer">
-                        <div class="rating">
-                          <i class="fa fa-mail-forward"></i> Auto Rotation
-                        </div>
-                      </div>
-                    </div>
-                  </div> <!-- end front panel -->
-
-                  <div class="back">
-                    <div class="header">
-                      <h5 class="motto">Start a virtual jam session with random artists</h5>
-                    </div>
-                    <div class="content">
-                      <div class="main">
-                        <div class="desc-tech">
-                          <h4 class="text-center">Technology Description</h4>
-                          <p class="text-center">WebRTC, Node.js, Express, SQL, PostgreSQL, Knex, Google OAuth2, JavaScript, Bootstrap, Handlebars, Web Design, HTML, CSS</p>
-                        </div>
-                        <div class="desc-app">
-                          <h4 class="text-center">App Description</h4>
-                          <p class="text-center">Jamazon allows users to engage in a virtual jam session. Utilizing WebRTC, users are paired randomly with other artists over a live video/audio stream.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="footer">
-                      <div class="social-links text-center">
-                        <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                        <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                        <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                      </div>
-                    </div>
-                  </div> <!-- end back panel -->
-                </div> <!-- end card -->
-              </div> <!-- end card-container -->
-
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-5 col-md-offset-1">
-
-              <div class="card-container">
-                <div class="card">
-
-                  <div class="front"> <!-- front panel -->
-                    <div class="header">
-                      <h4>Bebop</h4>
-                    </div>
-
-                    <div class="content">
-                      <div class="main">
-                        <img src="rotating_card/images/rotating_card_thumb3.png"/>
-                      </div>
-                      <div class="footer">
-                        <div class="rating">
-                          <i class="fa fa-mail-forward"></i> Auto Rotation
-                        </div>
-                      </div>
-                    </div>
-                  </div> <!-- end front panel -->
-
-                  <div class="back">
-                    <div class="header">
-                      <h5 class="motto">"Discover shows near you based on artists you love"</h5>
-                    </div>
-                    <div class="content">
-                      <div class="main">
-                        <div class="desc-tech">
-                          <h4 class="text-center">Technology Description</h4>
-                          <p class="text-center">Web Design, HTML, CSS, JavaScript, Materialize, jQuery</p>
-                        </div>
-                        <div class="desc-app">
-                          <h4 class="text-center">App Description</h4>
-                          <p class="text-center">Bebop allows users to search for concerts within a specified radius related to an artist or band or their choice. Utilizes external API and material design cards to provide users with concert info in a sleek, manageable format.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="footer">
-                      <div class="social-links text-center">
-                        <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                        <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                        <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                      </div>
-                    </div>
-                  </div> <!-- end back panel -->
-                </div> <!-- end card -->
-              </div> <!-- end card-container -->
-
-            </div>
-            <div class="col-md-5">
-
-              <div class="card-container">
-                <div class="card">
-
-                  <div class="front"> <!-- front panel -->
-                    <div class="header">
-                      <h4>Bebop</h4>
-                    </div>
-
-                    <div class="content">
-                      <div class="main">
-                        <img src="rotating_card/images/rotating_card_thumb3.png"/>
-                      </div>
-                      <div class="footer">
-                        <div class="rating">
-                          <i class="fa fa-mail-forward"></i> Auto Rotation
-                        </div>
-                      </div>
-                    </div>
-                  </div> <!-- end front panel -->
-
-                  <div class="back">
-                    <div class="header">
-                      <h5 class="motto">"Discover shows near you based on artists you love"</h5>
-                    </div>
-                    <div class="content">
-                      <div class="main">
-                        <div class="desc-tech">
-                          <h4 class="text-center">Technology Description</h4>
-                          <p class="text-center">Web Design, HTML, CSS, JavaScript, Materialize, jQuery</p>
-                        </div>
-                        <div class="desc-app">
-                          <h4 class="text-center">App Description</h4>
-                          <p class="text-center">Bebop allows users to search for concerts within a specified radius related to an artist or band or their choice. Utilizes external API and material design cards to provide users with concert info in a sleek, manageable format.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="footer">
-                      <div class="social-links text-center">
-                        <a href="http://creative-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                        <a href="http://creative-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
-                        <a href="http://creative-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                      </div>
-                    </div>
-                  </div> <!-- end back panel -->
-                </div> <!-- end card -->
-              </div> <!-- end card-container -->
-
-            </div>
-          </div>
+          <h4 class="xtra-cushion">I've been crafting lots of projects. Here's a sampling.</h4>
+        </div>
+        <div class="gallery xtra-cushion container-fluid">
+          <ul>
+            <li class="col-md-4 show-img">
+              <img src="assets/images/bebop.jpg" alt="bebop" class="project-img"/>
+            </li>
+            <li class="col-md-4">
+              <img src="assets/images/cherrycreek.jpg" alt="happy hour" class="project-img"/>
+            </li>
+            <li class="col-md-4">
+              <img src="assets/images/jamazon.jpg" alt="jamazon" class="project-img"/>
+            </li>
+            <li class="col-md-4">
+              <img src="assets/images/happy.jpg" alt="happy hour" class="project-img"/>
+            </li>
+            <li class="col-md-4">
+              <img src="assets/images/techreads.jpg" alt="tech reads" class="project-img"/>
+            </li>
+          </ul>
         </div>
       </div>
-      <div id="skills" class="background-cambridge padding-portfolio">
+
+      <!-- resume section -->
+      <div id="resume" class="background-isabelline padding-portfolio">
         <div class="container">
-          <button class="button-outline-default btn-lg btn-portfolio">Tech Skills</button>
-          <h3>Specializing in the following skills: </h3>
-          <h4>Development</h4>
-          <div class="row">
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>JAVASCRIPT</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>JQUERY</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>EXPRESS</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>NODEJS</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>SQL</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>POSTGRESQL</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>KNEX</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>HTML</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>GIT</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>GITHUB</strong></p>
-            </div>
-          </div>
-          <h4>Design</h4>
-          <div class="row">
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>CSS</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>BOOTSTRAP</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>RESPONSIVE WEB DESIGN</strong></p>
-            </div>
-          </div>
-          <h4>Other</h4>
-          <div class="row">
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong>PHOTOGRAPHY</strong></p>
-            </div>
-            <div class="col-md-3 col-sm-4 col-xs-6">
-              <p><strong></strong></p>
-            </div>
+          <button class="button-outline-default btn-lg btn-portfolio">Resume</button>
+          <h4 class="xtra-cushion">I dove into the Galvanize Full-Stack Immersive Program after spending several years in the consulting world.</h4>
+          <h4 class="xtra-cushion">Transferable skills gained while working include: solid communication, attention to detail, team player mentality + good vibes all around.</h4>
+          <!-- resume -->
+          <div class="center-content">
+            <a href="assets/resume.pdf" target="blank"><button class="btn-lg btn-portfolio btn-link xtra-cushion"><i class="fa fa-file-text-o" aria-hidden="true"></i> old school resume</button></a>
           </div>
         </div>
       </div>
-      <div id="contact" class="background-isabelline padding-portfolio">
+
+      <!-- contact section -->
+      <div id="contact" class="background-white padding-portfolio">
         <div class="container">
           <button class="button-outline-default btn-lg btn-portfolio">Contact Me</button>
-          <h3>How can I put my skills to work for you?</h3>
-
-          <form class="form-horizontal">
-            <div class="row">
-              <div class="col-md-4 col-sm-12">
-                <input type="text" class="form-control form-input" id="inputName" required placeholder="Name*:">
-              </div>
-              <div class="col-md-4 col-sm-12">
-                <input type="text" class="form-control form-input" id="inputEmail" required placeholder="Email*:">
-              </div>
-              <div class="col-md-4 col-sm-12">
-                <input type="text" class="form-control form-input" id="inputSubject" required placeholder="Subject*:">
-              </div>
+          <div class="center-content">
+            <h4>How can I put my skills to work for you?</h4>
+            <div class="row xtra-cushion">
+              <a href="mailto:spenslsm@gmail.com"><button class=" btn-lg btn-portfolio btn-link"><i class="fa fa-envelope-o" aria-hidden="true"></i> email</button></a>
+              <a href="https://www.linkedin.com/in/samanthaspensley" target="blank"><button class=" btn-lg btn-portfolio btn-link"><i class="fa fa-linkedin" aria-hidden="true"></i> linked in</button></a>
             </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <textarea class="form-control form-input" rows="5" id="textArea" required placeholder="Message*:"></textarea>
-              </div>
-            </div>
-            <div>
-              <button type="submit" class="btn btn-primary">Send it!</button>
-            </div>
-          </form>
+          </div>
+        </div>
       </div>
+
+      <!-- footer -->
+      <footer>
+        <div>
+          <h5>Copyright <i class="fa fa-at" aria-hidden="true"></i> Samantha Spensley 2016 | Powered by All The Feels</h5>
+        </div>
+      </footer>
+
     </main>
+    <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
     <!-- <script src="/rotating_card/js/"></script> -->
   </body>
