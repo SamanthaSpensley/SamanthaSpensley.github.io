@@ -1,1 +1,1 @@
-## Check out my portfolio site at https://samanthaspensley.com
+## Check out my portfolio site at http://www.samanthaspensley.com
