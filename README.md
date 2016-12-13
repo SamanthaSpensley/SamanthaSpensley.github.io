@@ -1,1 +1,1 @@
-# Check out my portfolio site [here](@www.samanthaspensley.com)
+## Check out my portfolio site at @www.samanthaspensley.com
